@@ -3,6 +3,8 @@ pub mod error;
 pub mod instructions;
 pub mod states;
 pub mod utils;
+pub mod cpi;
+
 use crate::curve::fees::FEE_RATE_DENOMINATOR_VALUE;
 use anchor_lang::prelude::*;
 use instructions::*;
